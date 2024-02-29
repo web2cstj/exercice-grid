@@ -7,37 +7,3 @@
 RÉDIGER le code CSS pour un résultat IDENTIQUE au fichier _assets/resultat.webp
 */
 
-div.interface{
-    background-color: #fff;
-    width: 844px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 100px 600px 100px;
-    grid-template-rows: 100px 300px 100px;
-    grid-gap: 12px;
-    padding: 10px;
-}
-
-div.logo{
-    background-color: #8aadbe;
-}
-
-nav.nav_principale{
-    background-color: #50b16d;
-    grid-column: 2 / span 2;
-}
-
-main{
-    background-color:#d494e0;
-    grid-column: 1 / span 2;
-}
-
-aside{
-    background-color: #cfe094;
-}
-
-footer{
-    background-color: #386846;
-    grid-column: 1 / span 3;
-}
-
